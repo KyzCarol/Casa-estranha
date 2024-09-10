@@ -1,0 +1,16 @@
+body {
+    background-color: #151515;
+    color: white;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #810000;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
