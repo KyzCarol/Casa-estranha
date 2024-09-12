@@ -14,3 +14,11 @@ button {
     color: white;
     font-family: "Playfair Display", serif;
 }
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
