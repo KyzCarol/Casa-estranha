@@ -7,21 +7,78 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
     <title>A casa do vizinho</title>
 </head>
 
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <p>Voltando do trabalho numa noite tranquila, onde a porta está entreaberta. Algo sempre te deixou intrigado(a), pois, apesar de morar ali, jamais viu seu vizinho. Da escuridão dentro da casa, você escuta uma voz suave, quase sussurrada, chamando seu nome. Ela soa gentil, mas algo na entonação te faz hesitar. A voz implora por ajuda, mas ao olhar para o interior da casa, o ambiente parece sombrio e desconfortável, criando um contraste pertubador entre a doçura da voz e a aparência nada acolhedora do lugar. </p>
+            <img src="cenario-passo0.jpeg" alt="">
+            <p>Voltando do trabalho numa noite tranquila, onde a porta está entreaberta. Algo sempre te deixou
+                intrigado(a), pois, apesar de morar ali, jamais viu seu vizinho. Da escuridão dentro da casa, você
+                escuta uma voz suave, quase sussurrada, chamando seu nome. Ela soa gentil, mas algo na entonação te faz
+                hesitar. A voz implora por ajuda, mas ao olhar para o interior da casa, o ambiente parece sombrio e
+                desconfortável, criando um contraste pertubador entre a doçura da voz e a aparência nada acolhedora do
+                lugar. </p>
             <button class="btn-proximo" data-proximo="1">Entrar na casa</button>
             <button class="btn-proximo" data-proximo="2">Ir embora</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>A casa está sombria e cheia de teias de aranha. Você ouve um barulho vindo do andar de cima. Seria a pessoa da doce voz? </p>
+            <p>A casa está sombria e cheia de teias de aranha. Você ouve um barulho vindo do andar de cima. Seria a
+                pessoa da doce voz? </p>
             <button class="btn-proximo" data-proximo="3">Subir as escadas</button>
             <button class="btn-proximo" data-proximo="4">Explorar o andar de baixo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide não entrar na casa e começa a voltar para sua casa. No entanto, enquanto se afasta você ouve
+                a voz desesperada chamando seu nome do interior da casa. A voz se torna cada vez mais intensa e
+                angustiante.</p>
+            <button class="btn-proximo" data-proximo="5">Ignorar a voz e continuar indo embora</button>
+            <button class="btn-proximo" data-proximo="1">Voltar para a casa para investigar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo das escadas, você encontra uma porta entreaberta e uma luz fraca vindo de dentro.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no quarto iluminado</button>
+            <button class="btn-proximo" data-proximo="1">Voltar para baixo</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você encontra uma sala cheia de itens antigos e um espelho quebrado.</p>
+            <button class="btn-proximo" data-proximo="9">Olhar no espelho</button>
+            <button class="btn-proximo" data-proximo="10">Examinar os itens da sala</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>A voz se intensifica, se tornando um grito agudo e assustador. Ao olhar para a porta, você vê ela se abrindo lentamente, e ao piscar, uma criatura vem rapidamente ao seu encontro, parando por uns segundos na sua frente, tal criatura agarra seu pescoço e volta correndo para dentro da casa, Você tenta gritar por ajuda, mas não foi possível.</p>
+            <button class="btn-proximo" data-proximo="0">Tentar novamente?</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>O quarto está vazio, mas há uma caixa trancada</p>
+            <button class="btn-proximo" data-proximo="11">Tentar abrir a caixa</button>
+            <button class="btn-proximo" data-proximo="12">Sair do quarto e explorar mais</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você vê uma sombra amendrontadora atrás de você no espelho. A sombra se aproxima e te arrasta para dentro do espelho.</p>
+            <button class="btn-proximo" data-proximo="0">Tentar novamente?</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você encontra um diário antigo com histórias perturbadoras.</p>
+            <button class="btn-proximo" data-proximo="13">Ler o diário</button>
+            <button class="btn-proximo" data-proximo="14">Deixar o diário de lado e explorar mais a casa</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>A caixa se abre e uma sombra se liberta, envolvendo você. Seus gritos não vão te salvar.</p>
+            <button class="btn-proximo" data-proximo="0">Tentar novamente?</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Você encontra um caminho secreto que te leva a um porão.</p>
+            <button class="btn-proximo" data-proximo="15">Descer para o porão</button>
+            <button class="btn-proximo" data-proximo="16">Sair da casa rapidamente</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>O diário era de um antigo morador da casa, cuja era fascinado pelo sobrenatural. Um dia ele encontrou anotações que era sobre como invocar um espiríto, o morador sabia que poderia acontecer algo ruim, mas seu interesse pelo sobrenatural falou mais alto e ele não resistiu a tentação.</p>
+            <button class="btn-proximo" data-proximo="15">Descer para o porão</button>
+            <button class="btn-proximo" data-proximo="16">Sair da casa rapidamente</button>
         </div>
     </main>
     <script src="script.js"></script>
